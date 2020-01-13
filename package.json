@@ -1,0 +1,27 @@
+{
+  "name": "platform-boilerplate",
+  "version": "0.0.0",
+  "description": "Prototype Web Platform",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "build": "cross-env NODE_ENV=production npm run build --prefix client && npm run build --prefix server",
+    "reset": "rimraf node_modules && npm run reset --prefix client && npm run reset --prefix server ",
+    "setup": "npm install && cd client && npm install && cd ../server && npm install",
+    "clean": "npm run clean --prefix client && npm run clean --prefix server",
+    "lint": "node node_modules/.bin/tslint -c tslint.json --project tsconfig.json 'client/**/*.ts?(x)' 'server/**/*.ts?(x)'",
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\"",
+    "test": "./node_modules/cypress/bin/cypress open"
+  },
+  "author": "Victor <victor.dmdb@gmail.com>",
+  "peerDependencies": {},
+  "dependencies": {
+    "@types/xml2js": "^0.4.5",
+    "concurrently": "^5.0.2",
+    "cross-env": "^6.0.3",
+    "xml2js": "^0.4.23"
+  }
+}

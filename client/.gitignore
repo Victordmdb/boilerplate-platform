@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+.DS_Store
+node_modules/
+npm-debug.log
+dist
+public/app.js
+public/vendor.js
+.env
+.editorconfig
+.env.development
+.env.production
+build/

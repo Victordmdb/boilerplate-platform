@@ -1,0 +1,11 @@
+// This is the default theme.
+@import 'styles/light/colors';
+
+// Global styling
+@import '@elastic/eui/src/global_styling/index.scss';
+
+// Components
+@import '@elastic/eui/src/components/index.scss';
+
+// Packages
+@import '@elastic/eui/packages/index.scss';
