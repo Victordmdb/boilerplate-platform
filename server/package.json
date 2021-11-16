@@ -52,7 +52,7 @@
     "async-es": "^3.1.0",
     "autoprefixer": "^9.7.3",
     "awesome-typescript-loader": "^5.2.1",
-    "aws-sdk": "^2.601.0",
+    "aws-sdk": "^2.814.0",
     "axios": "^0.19.1",
     "axios-error": "^0.8.1",
     "babel-core": "^6.26.3",
