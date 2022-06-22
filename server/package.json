@@ -48,7 +48,7 @@
     "@types/prop-types": "^15.7.3",
     "@types/ramda": "^0.26.39",
     "@types/universal-cookie": "^2.2.0",
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "async-es": "^3.1.0",
     "autoprefixer": "^9.7.3",
     "awesome-typescript-loader": "^5.2.1",
